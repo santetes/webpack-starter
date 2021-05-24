@@ -1,0 +1,22 @@
+Este documento de texto explica la distribución de archivos de este proyecto:
+
+En la raiz del proyecto se encuentran los archivos de configuración tanto de Node como de webPack
+  - package.json
+  - package-lock.json
+  - webPack.config.js  // archivo de configuración para modo desarroyo. 
+  - webPack.prod.js // archivo configuración para modo producción.  apunta a uno u otro en los scripts de package.json
+
+  - README.md archivo de marcado markdown para explicación del repositorio en github
+  - babel.config.json  archivo configuración modulo babel
+
+  - gitignore archivo donde se especifica que archivos no seran respaldados por git
+
+
+  /src  Esta será la carpeta donde se crearan todos los archivos necesarios para la creación de proyecto.
+
+  /nodeModules son los archivos necesarios de node. si se ejecuta "npm install" vscode instala todos los archivos necesarios de node leyendolos del archivo package.json
+
+  /dist es la carpeta creada cunado se ejecuta webpack. esta carpeta puede tener o los archivos de src en modo producción o desarroyo
+
+  /docs esta carpeta se ha creado manualmente y es una copia de la carpeta dist. Esta sirve para crear que github pueda crear un host con nuestro proyecto
+
