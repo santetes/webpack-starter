@@ -10,7 +10,7 @@ recuerden reconstruir los módulos de Node
 npm install
 ```
 
-Y para construir el build y desarroyo
+Y para construir el build y desarrollo
 
 ```
 npm run build
