@@ -1,6 +1,3 @@
-import { saludar } from './js/components.js';
-import './styles.css';
+import { init } from '../src/js/rellenaTabla';
 
-const nombre = 'Paco';
-
-saludar(nombre);
+init();
